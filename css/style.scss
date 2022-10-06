@@ -1,0 +1,38 @@
+html,body{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    background: url("./img/background.jpg")no-repeat left top, url("./img/background2.jpg")no-repeat right top;
+    background-attachment: fixed, fixed;
+    background-size: 51vw 110vh, 51vw 110vh;
+    h1{
+        text-align: center;
+        margin: 2rem auto;
+        color: rgb(224, 214, 198);
+        text-shadow: 1px 1px 1px rgb(224, 160, 63);
+        width: 50vw;
+    }
+    h2, h3{
+        color: rgb(219, 155, 58);
+    }
+    p{
+        color: rgb(219, 155, 58);
+    }
+    .navbar-toggler{
+        border-color: rgb(219, 155, 58);
+        span {
+            color: rgb(219, 155, 58);
+        }
+    }
+    .rounded-circle {
+        color: rgb(219, 155, 58);
+        &:hover{
+            color: rgb(241, 210, 163);
+            transform: scale(1.1);
+            transition: transform 0.5s;
+        }
+    }
+}

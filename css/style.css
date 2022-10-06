@@ -1,0 +1,39 @@
+html, body {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  background: url("./img/background.jpg") no-repeat left top, url("./img/background2.jpg") no-repeat right top;
+  background-attachment: fixed, fixed;
+  background-size: 51vw 110vh, 51vw 110vh;
+}
+body h1 {
+  text-align: center;
+  margin: 2rem auto;
+  color: #e0d6c6;
+  text-shadow: 1px 1px 1px #e0a03f;
+  width: 50vw;
+}
+body h2, body h3 {
+  color: #db9b3a;
+}
+body p {
+  color: #db9b3a;
+}
+body .navbar-toggler {
+  border-color: #db9b3a;
+}
+body .navbar-toggler span {
+  color: #db9b3a;
+}
+body .rounded-circle {
+  color: #db9b3a;
+}
+body .rounded-circle:hover {
+  color: #f1d2a3;
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}/*# sourceMappingURL=style.css.map */
