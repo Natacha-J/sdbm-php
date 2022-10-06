@@ -44,9 +44,6 @@
                         <li class="nav-item">
                             <a href="<?= PATH ?>/typebiere" id="btnTypeBiere" class="btn rounded-circle m-2">Type</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="<?= PATH ?>/ticket" id="btnTicket" class="btn rounded-circle m-2">Ticket</a>
-                        </li>
                     </ul>
                 </div>
             </div>
